@@ -20,7 +20,6 @@
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
   - [🙏 Acknowledgments ](#-acknowledgments-)
-  - [❓ FAQ ](#-faq-)
   - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
@@ -164,22 +163,6 @@ If you like this project, don't forget give a ⭐️ or buy me a coffee ☕️
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank all my collaborators on this project and the Microverse student community.
-
-<p align="right">[<a href="#readme-top">Back to Top</a>]</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-> Two possible questions new developers would ask when they decide to use this project.
-
-- **[]**
-
-  - []
-
-- **[]**
-
-  - []
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
