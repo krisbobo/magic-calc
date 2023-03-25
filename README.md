@@ -67,9 +67,9 @@ The major tools and languages used are:
 
 ## 🚀 Live Demo and other links <a name="live-demo"></a>
 
-> Here, we will paste links as per the submission instructions.
+> The link to our deployed project shall be here!
 
-- [Live Demo Link]()
+- [Coming Soon...]()
 
 <p align="right">[<a href="#readme-top">Back to Top</a>]</p>
 
