@@ -13,3 +13,18 @@ $font-stack: 'Helvetica', sans-serif;
   justify-content: center;
   align-items: center;
 }
+
+.quote {
+  text-align: left;
+  max-width: 50%;
+  padding: 1rem;
+  font-size: large;
+  font-style: italic;
+}
+
+#author {
+  text-align: right;
+  padding: 1rem;
+  font-size: large;
+  font-weight: bold;
+}
