@@ -1,30 +1,92 @@
 $font-stack: 'Helvetica', sans-serif;
+$flex: flex;
+$color: #1b3b80;
 
 * {
   font-family: $font-stack;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 
-.App {
-  display: flex;
-  min-height: 50vh;
-  justify-content: center;
+.header {
+  display: $flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 1.4em 6%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(229, 229, 238, 0.928);
+}
+
+.header nav ul li {
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.header nav ul li a {
+  color: $color;
+}
+
+.home-container {
+  padding: 4% 2%;
+}
+
+h1 {
+  color: $color;
+}
+
+h2 {
+  padding-top: 5rem;
+  font-size: 2.5em;
+  color: $color;
+}
+
+p {
+  padding: 1rem 0;
+  font-style: italic;
+  font-size:1.23rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+.calc-container {
+  display: $flex;
+  align-items: flex-start;
+  padding: 0 3%;
+  padding-top: 15%;
+  flex: 1;
+  justify-content: space-between;
 }
 
 .quote {
-  text-align: left;
-  max-width: 50%;
-  padding: 1rem;
+  margin: 12% auto;
+  text-align: center;
+  width: 100%;
+  padding-top: 5em;
   font-size: large;
   font-style: italic;
 }
 
+#item-quote {
+  text-align: center;
+  width: 100%;
+  padding: 0 2rem;
+  padding-top: 5em;
+  color: $color;
+} 
+
 #author {
-  text-align: right;
+  text-align: center;
   padding: 1rem;
   font-size: large;
   font-weight: bold;
+  color: $color;
 }
