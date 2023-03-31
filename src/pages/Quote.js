@@ -34,7 +34,7 @@ function Quote() {
     <div className="quote">
       {data.map((item) => (
         <>
-          <p key={item.id}>{item.quote}</p>
+          <p id="item-quote" key={item.id}>{item.quote}</p>
           <p id="author">
             {item.author}
           </p>
